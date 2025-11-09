@@ -1,0 +1,50 @@
+{
+  "baseline": {
+    "final_valid_ppl": 490.9440507174884,
+    "total_time": 956.2855949401855,
+    "n_params": 14246144,
+    "final_train_loss": 6.069431097079546
+  },
+  "no_dropout": {
+    "final_valid_ppl": 480.98194974984636,
+    "total_time": 356.9253759384155,
+    "n_params": 14246144,
+    "final_train_loss": 5.950997535999004
+  },
+  "smaller_model": {
+    "final_valid_ppl": 1117.1225238527186,
+    "total_time": 971.4251232147217,
+    "n_params": 6779008,
+    "final_train_loss": 6.986946656153752
+  },
+  "fewer_layers": {
+    "final_valid_ppl": 571.7922542854143,
+    "total_time": 351.3874440193176,
+    "n_params": 13326080,
+    "final_train_loss": 6.227266935201792
+  },
+  "fewer_heads": {
+    "final_valid_ppl": 489.2220348023077,
+    "total_time": 1059.6094896793365,
+    "n_params": 14246144,
+    "final_train_loss": 6.066146679413625
+  },
+  "no_warmup": {
+    "final_valid_ppl": 490.4359046312119,
+    "total_time": 1031.2771718502045,
+    "n_params": 14246144,
+    "final_train_loss": 6.069835821787517
+  },
+  "higher_lr": {
+    "final_valid_ppl": 391.6029820988263,
+    "total_time": 1022.1648609638214,
+    "n_params": 14246144,
+    "final_train_loss": 5.701944253383538
+  },
+  "lower_lr": {
+    "final_valid_ppl": 982.7588175518227,
+    "total_time": 1018.6189453601837,
+    "n_params": 14246144,
+    "final_train_loss": 6.882848874116555
+  }
+}
